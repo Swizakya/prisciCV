@@ -1,0 +1,1260 @@
+@font-face {
+    font-family: Dancing Script;
+    src: url(/fonts/DancingScript-Medium.ttf);
+}
+@font-face {
+    font-family: Pacifico;
+    src: url(/fonts/Pacifico-Regular.ttf);
+}
+@font-face {
+    font-family: Cabin Sketch;
+    src: url(/fonts/CabinSketch-Regular.ttf);
+}
+
+@font-face {
+    font-family: Sacramento;
+    src: url(/fonts/Sacramento-Regular.ttf);
+}
+@font-face {
+    font-family: Tenor Sans;
+    src: url(/fonts/TenorSans-Regular.ttf);
+}
+@font-face {
+    font-family: Lobster Two;
+    src: url(/fonts/LobsterTwo-Regular.ttf);
+}
+@font-face {
+    font-family: Berkshire Swash;
+    src: url(/fonts/BerkshireSwash-Regular.ttf);
+}
+@font-face {
+    font-family: Aclonica;
+    src: url(/fonts/Aclonica-Regular.ttf);
+}
+@font-face {
+    font-family: Gabriela;
+    src: url(https://fonts.googleapis.com/css?family=Gabriela);
+}
+@font-face {
+    font-family: Patrick Hand SC;
+    src: url(//fonts/PatrickHandSC-Regular.ttf);
+}
+@font-face {
+    font-family: Poiret One;
+    src: url(//fonts/PoiretOne-Regular.ttf);
+}
+@font-face {
+    font-family: Julius Sans One;
+    src: url(//fonts/JuliusSansOne-Regular.ttf);
+}
+
+
+body{
+    padding: auto;
+    margin: auto;
+}
+div.container{
+    max-width: 80%;
+    width: 80%;
+}
+
+/*--------------------------------------------------------------------*/
+/* Navigation*/
+.navig{
+    background-color: rgb(102, 3, 41);
+    /* background-color: rgb(4, 161, 122); */
+    /* background-color: rgb(42, 151, 165); */
+}
+.navig a img{
+    background-color: whitesmoke;
+    border-radius: 100% ;
+    width: 80px;
+    height: 80px;
+}
+/* end navigation */
+
+/*--------------------------------------------------------------------*/
+/* debut div about me */
+div.aboutMe{
+    position: relative;
+    background-color: black;
+    height: 550px;   
+    top:60px;
+    padding: 50px;
+}
+/* div.hr-one{
+    height: 10px;
+    background-color: rgb(0, 0, 0);
+    
+} */
+.aboutMe h1{
+    color: rgb(255, 255, 255);
+    /* color: rgb(243, 129, 169); */
+    font-size: 55px;;
+    font-family: Cabin Sketch;
+    position: relative;
+    top: 20px;   
+}
+
+.aboutMe h2{
+    font-size: 60px;
+    color:rgb(254, 255, 255);
+    /* color: rgb(252, 189, 153); */
+    font-family:Patrick Hand SC;
+    position: relative;
+    top: 15px;  
+    text-shadow: 3px 1px 0 rgb(1, 81, 95);
+}
+div.aboutMe h3{
+    color: rgb(148, 5, 76);
+    text-transform: uppercase;
+    font-family: Julius Sans One;
+    text-shadow: 2px 0 0 rgba(0, 0, 0, 0.8);
+    position: relative;
+    top: 22px;
+    font-size: 25px;
+}
+
+div.infosOfMe p{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    text-shadow: -1px 0 0 rgba(0, 0, 0, 0.8), 
+    1px 0 0 rgba(0, 0, 0, 0.8),
+    0 -1px 0 rgba(0, 0, 0, 0.8),
+    0 1px 0 rgba(0, 0, 0, 0.8);
+    position: relative;
+    top: 25px; 
+    font-family:Poiret One;   
+    padding: 0px;
+    font-weight: bold;
+}
+
+div.atouts p{
+    font-family: Poiret One;
+    /* color: rgb(130, 174, 255); */
+    color: rgb(150, 211, 240);
+    position: relative;
+    top:20px;  
+    text-align: right;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* end about me */
+
+/*--------------------------------------------------*/
+/* style commun */
+.lang-fluid h4, .fameworks-fluid h4, .outils-fluid h4{
+    color: rgb(166, 249, 252);
+    font-family: Pacifico; 
+    font-size: 35px;
+    text-shadow: -1px 0 0 rgba(0, 0, 0, 0.8), 
+    1px 0 0 rgba(0, 0, 0, 0.8),
+    0 -1px 0 rgba(0, 0, 0, 0.8),
+    0 1px 0 rgba(0, 0, 0, 0.8);
+    position: relative;
+    bottom:25px;
+}
+.lang-com-fluid h4{
+    position: relative;
+    top:20px;
+    color: rgb(136, 197, 255);
+    font-family: Pacifico; 
+    font-size: 35px;
+    text-shadow: -1px 0 0 rgba(0, 0, 0, 0.8), 
+    1px 0 0 rgba(0, 0, 0, 0.8),
+    0 -1px 0 rgba(0, 0, 0, 0.8),
+    0 1px 0 rgba(0, 0, 0, 0.8);
+    text-align: center;
+ 
+}
+.lang-fluid h5, .fameworks-fluid h5, .outils-fluid h5, .lang-com-fluid h5{
+    color: aliceblue;
+    font-family:Handlee;
+    font-size: 20px;
+    text-shadow: -1px 0 0 rgba(0, 0, 0, 0.8), 
+    1px 0 0 rgba(0, 0, 0, 0.8),
+    0 -1px 0 rgba(0, 0, 0, 0.8),
+    0 1px 0 rgba(0, 0, 0, 0.8);
+    font-weight: bold;
+    padding: 30px 0px 0px 0px;
+
+}
+.lang-fluid, .fameworks-fluid, .outils-fluid{
+    padding: 40px 0px 0px 0px;
+}
+/* debut compétences div */
+.competences {
+    position: relative;
+    background-color: rgb(102, 3, 41);
+    top:40px;
+}
+.competences h3{
+    color: whitesmoke;
+    font-size: 55px;
+    font-family: Patrick Hand SC;
+    font-weight: bold;
+    padding: 10px;
+    text-shadow: -1px 0 0 rgba(0, 0, 0, 0.8), 
+    1px 0 0 rgba(0, 0, 0, 0.8),
+    0 -1px 0 rgba(0, 0, 0, 0.8),
+    0 1px 0 rgba(0, 0, 0, 0.8);
+}
+
+/* debut langage informatique de competences */
+.comp-img img{
+    width: 80px;
+    height: 80px;
+}
+.comp-img.php img, .comp-img.react img{
+    width: 100px;
+    height: 100px;
+}
+.comp-img{
+    padding: 20px;
+}
+.comp-img.php h5{
+    position: relative;
+    top: -15px;
+}
+
+.lang-fluid{
+    background-color: rgb(6, 69, 71);
+}
+
+/* debut frameworks de competences */
+.fameworks-fluid{
+    background-color: rgb(10, 50, 83);
+}
+.comp-img.boot img{
+    width: 130px;
+}
+.comp-img.CI img{
+    width: 65px;
+}
+.comp-img.react{
+    position: relative;
+    margin-top: -20px;
+}
+
+/* debut outils de competences */
+.outils-fluid{
+    background-color: rgb(2, 38, 49);
+}
+.comp-img.myAdmin img{
+    width: 130px;
+}
+.lang-com-fluid{
+    background-color: rgb(8, 66, 94);
+    padding: 20px;
+}
+.lang-com p{
+    font-family: Gabriela;
+    color: rgb(180, 202, 238);
+    font-size: 20px;
+}
+/* fin div de competences */
+/*-----------------------------------------------------------------*/
+
+/* experience pro et projets personnels */
+.experiences {
+    position: relative;
+    top:40px;
+    background-color: rgb(102, 3, 41);
+}
+.experiences h3{
+    color: whitesmoke;
+    font-family: Patrick Hand SC;
+    font-size: 55px;
+    padding: 10px;
+    font-weight: bold;
+    text-shadow: -1px 0 0 rgba(0, 0, 0, 0.8), 
+    1px 0 0 rgba(0, 0, 0, 0.8),
+    0 -1px 0 rgba(0, 0, 0, 0.8),
+    0 1px 0 rgba(0, 0, 0, 0.8);
+}
+.exp-fluid{
+    background-color: rgb(70, 6, 43);
+    padding: 40px 0px 0px 0px;
+}
+.exp-pro h4, .exp-perso h4{
+    color: rgb(252, 250, 251);
+    font-family: Pacifico; 
+    font-size: 30px;
+    text-shadow: -1px 0 0 rgba(0, 0, 0, 0.8), 
+    1px 0 0 rgba(0, 0, 0, 0.8),
+    0 -1px 0 rgba(0, 0, 0, 0.8),
+    0 1px 0 rgba(0, 0, 0, 0.8);
+    position: relative;
+    bottom:25px;
+}
+.exp-pro h5, .exp-perso h5{
+    /* color: #AED6F1  ; */
+    color: rgb(235, 176, 195);
+    text-shadow: -1px 0 0 rgba(0, 0, 0, 0.8), 
+    1px 0 0 rgba(0, 0, 0, 0.8),
+    0 -1px 0 rgba(0, 0, 0, 0.8),
+    0 1px 0 rgba(0, 0, 0, 0.8);
+    font-family:  Julius Sans One;
+    font-size: 22px;
+}
+.exp-perso h6{
+    color :#fdece0 ;
+    font-family: Gabriela;
+    font-size: 18px;
+}
+.perso-fluid{
+    background-color: rgb(92, 10, 58);
+    padding: 40px 0px 0px 0px;
+}
+.perso-fluid p, .exp-pro p{
+    color :#fdece0 ;
+    font-family: Gabriela;
+    font-size: 18px;
+}
+div.desc-perso{
+    padding: 20px;
+    border-bottom: 1px solid rgba(56, 10, 35, 0.671);
+}
+div.desc-pro{
+    padding: 20px;
+}
+div.last-desc-perso{
+    padding: 20px;
+}
+.exp-perso a {
+    color: #ff227e ;
+    text-decoration: none;
+    font-family: Gabriela;
+    font-size: 18px;
+}
+.exp-perso a:hover{
+    text-decoration: underline;
+}
+.exp-fluid a:active{
+    color: palevioletred;
+}
+/*  fin projets perso & experiences */
+/*---------------------------------------------------------*/
+
+/* debut diplomes */
+.diplomes {
+    position: relative;
+    top: 40px;
+    background-color: rgb(102, 3, 41);
+
+}
+.diplomes h3{
+    font-family: Patrick Hand SC;
+    font-size: 55px;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    text-shadow: -1px 0 0 rgba(0, 0, 0, 0.8), 
+    1px 0 0 rgba(0, 0, 0, 0.8),
+    0 -1px 0 rgba(0, 0, 0, 0.8),
+    0 1px 0 rgba(0, 0, 0, 0.8);
+    font-weight: bold;
+}
+.dip-fluid{
+    padding: 20px 0px 0px 0px;
+    background-color: #a04000 ;
+}
+.dip-fluid h4{
+    color: #fce4bf ;
+    font-family:  Julius Sans One ;
+    font-size: 20px;
+    font-weight: bold;
+}
+.dip-fluid span {
+    color: black;
+    text-shadow: none;
+    font-weight: bold;
+}
+.dip-fluid p{
+    font-family: Gabriela;
+    color: black;
+    font-size: 18px;
+}
+.dip-content{
+    padding: 20px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.39);
+}
+.last-dip-content{
+    border-bottom: none;
+    padding: 20px;
+}
+/* fin diplomes */
+
+/*---------------------------------------------------------*/
+/* debut loisirs */
+.loisirs{
+    position: relative;
+    top: 40px;
+    background-color: rgb(56, 3, 3);
+}
+.loisirs h3{
+    position: relative;
+    color: rgb(243, 211, 232);
+    font-family: Pacifico; 
+    font-size: 35px;
+    text-shadow: -1px 0 0 rgba(0, 0, 0, 0.8), 
+    1px 0 0 rgba(0, 0, 0, 0.8),
+    0 -1px 0 rgba(0, 0, 0, 0.8),
+    0 1px 0 rgba(0, 0, 0, 0.8);
+    text-align: center;
+    padding: 20px;
+}
+.loisir-fluid p {
+    font-family: Gabriela;
+    color:rgb(255, 255, 255);
+    font-size: 19px;
+}
+/* fin loisirs */
+
+/*---------------------------------------------------------*/
+
+/* fin loisirs */
+
+
+
+
+/*********************************** responsives values ************************************/
+@media only screen and (max-width: 990px) and (min-width: 499px) {
+    .loisirs h3{
+        font-size: 30px;
+    }
+    .loisir-fluid p {
+        font-size: 17px;
+    }
+
+}
+@media only screen and (max-width: 1155px) and (min-width: 928px) {
+    body{
+        background-color: rgb(236, 71, 5);
+    }
+    .navig a img{
+        width: 70px;
+        height: 70px;
+    }
+    div.aboutMe{
+        height: 520px;
+    }
+    div.aboutMe h1{
+        font-size: 45px;
+    }
+    div.aboutMe h2{
+        font-size: 55px;
+    }
+    div.aboutMe h3{
+        font-size: 20px;
+    }
+    div.infosOfMe p,  div.atouts p{
+        font-size: 18px;
+    }
+    div.atouts p{
+        font-weight: bold;
+        top:30px;
+    }
+    .competences h3, .diplomes h3, .experiences h3{
+        font-size: 50px;;
+    }
+    .lang-fluid h4, .fameworks-fluid h4, .outils-fluid h4,  .lang-com h4{
+        font-size: 35px;
+    }
+    .lang-com p, .lang-fluid h5, .fameworks-fluid h5, .outils-fluid h5, .lang-com h5{
+        font-size: 20px;
+    }
+    .comp-img.sql {
+        position: relative;
+        left: 60%;
+     }
+}
+@media only screen and (max-width: 928px) and (min-width: 864px) {
+    div.aboutMe{
+        height: 670px;
+    }
+}
+@media only screen and (max-width: 864px) and (min-width: 812px) {
+    div.aboutMe{
+        height: 750px;
+    }
+}
+
+
+@media only screen and (max-width: 812px) and (min-width: 757px) {
+    body{
+        background-color: rgb(18, 110, 0);
+    }
+    .navig a img{
+        width: 70px;
+        height: 70px;
+    }
+    div.aboutMe{
+        height:600px;
+    }
+    div.aboutMe h1{
+        font-size: 42px;
+    }
+    div.aboutMe h2{
+        font-size: 47px;
+    }
+    div.aboutMe h3{
+        font-size: 18px;
+        top:25px;
+    }
+    div.infosOfMe p{
+        font-size: 18px;
+        top: 40px;
+    }
+    div.atouts p{
+        font-size: 18px;
+        top: 40px;
+        font-weight: bold;
+    }
+    .competences h3{
+        font-size: 50px;;
+    }
+    .lang-fluid h4, .fameworks-fluid h4, .outils-fluid h4,  .lang-com h4{
+        font-size: 35px;
+    }
+    .lang-com p, .lang-fluid h5, .fameworks-fluid h5, .outils-fluid h5, .lang-com h5{
+        font-size: 20px;
+    }
+    /* diplomes */
+    .last-dip-content{
+        border-bottom: 1px solid rgba(0, 0, 0, 0.39);
+    }
+    .comp-img.sql {
+        position: relative;
+        left: 60%;
+     }
+   
+}
+@media only screen and (max-width: 757px) and (min-width: 690px) {
+    body{
+        background-color: rgb(48, 70, 6);
+    }
+    .navig a img{
+        width: 60px;
+        height: 60px;
+    }
+    div.aboutMe{
+        height: 650px;
+    }
+    div.aboutMe h1{
+        font-size: 50px;
+        top:5px;
+    }
+    div.aboutMe h2{
+        font-size: 50px;
+    }
+    div.aboutMe h3{
+        font-size: 20px;
+        top:25px;
+    }
+    div.infosOfMe p{
+        font-size: 18px;
+        top: 40px;
+    }
+    div.atouts p{
+        font-size: 18px;
+        top: 40px;
+        font-weight: bold;
+    }
+    .competences h3, .diplomes h3, .experiences h3{
+        font-size: 48px;;
+    }
+    .lang-fluid h4, .fameworks-fluid h4, .outils-fluid h4,  .lang-com h4{
+        font-size: 25px;
+    }
+    .lang-com p, .lang-fluid h5, .fameworks-fluid h5, .outils-fluid h5, .lang-com h5{
+        font-size: 20px;
+    }
+     /* diplomes */
+     .last-dip-content{
+        border-bottom: 1px solid rgba(0, 0, 0, 0.39);
+    }
+    .espanol p,  .espanol h5{
+        position: relative;
+        left: 60%;
+     }
+     .comp-img.sql {
+        position: relative;
+        left: 60%;
+     }
+    
+}
+@media only screen and (max-width: 691px) and (min-width: 664px) {
+    .navig a img{
+        width: 50px;
+        height: 50px;
+    }
+   
+    div.aboutMe{
+        height: 650px;
+    }
+    div.aboutMe h1{
+        font-size: 48px;
+        top:5px;
+    }
+    div.aboutMe h2{
+        font-size: 50px;
+    }
+    div.aboutMe h3{
+        font-size: 20px;
+        top:25px;
+    }
+    div.infosOfMe p{
+        font-size: 18px;
+        top: 40px;
+    }
+    div.atouts p{
+        font-size: 18px;
+        top: 40px;
+        font-weight: bold;
+    }
+    .competences h3, .diplomes h3, .experiences h3{
+        font-size: 48px;
+    }
+    .lang-fluid h4, .fameworks-fluid h4, .outils-fluid h4,  .lang-com h4{
+        font-size: 30px;
+    }
+    .lang-com p, .lang-fluid h5, .fameworks-fluid h5, .outils-fluid h5, .lang-com h5{
+        font-size: 18px;
+    }
+    /* diplomes */
+    .last-dip-content{
+        border-bottom: 1px solid rgba(0, 0, 0, 0.39);
+    }
+    .espanol p,  .espanol h5{
+        position: relative;
+        left: 60%;
+     }
+     .comp-img.sql {
+        position: relative;
+        left: 60%;
+     }
+   
+}
+@media only screen and (max-width: 664px) and (min-width: 616px) {
+    .navig a img{
+        width: 50px;
+        height: 50px;
+    }
+    div.aboutMe{
+        height: 680px;
+    }
+    div.aboutMe h1{
+        font-size: 48px;
+        top:5px;
+    }
+    div.aboutMe h2{
+        font-size: 48px;
+    }
+    div.aboutMe h3{
+        font-size: 20px;
+        top:25px;
+    }
+    div.infosOfMe p{
+        font-size: 18px;
+        top: 40px;
+    }
+    div.atouts p{
+        font-size: 18px;
+        top: 40px;
+        font-weight: bold;
+    }
+    .competences h3, .diplomes h3, .experiences h3{
+        font-size: 48px;
+    }
+    .lang-fluid h4, .fameworks-fluid h4, .outils-fluid h4,  .lang-com h4{
+        font-size: 30px;
+    }
+    .lang-com p, .lang-fluid h5, .fameworks-fluid h5, .outils-fluid h5, .lang-com h5{
+        font-size: 18px;
+    }
+      /* diplomes */
+      .last-dip-content{
+        border-bottom: 1px solid rgba(0, 0, 0, 0.39);
+    }
+    .espanol p,  .espanol h5{
+        position: relative;
+        left: 60%;
+     }
+     .comp-img.sql {
+        position: relative;
+        left: 60%;
+     }
+   
+}
+@media only screen and (max-width: 616px) and (min-width: 566px) {
+    .navig a img{
+        width: 50px;
+        height: 50px;
+    }
+    div.aboutMe{
+        height: 720px;
+    }
+    div.aboutMe h1{
+        font-size: 45px;
+        top:5px;
+    }
+    div.aboutMe h2{
+        font-size: 48px;
+    }
+    div.aboutMe h3{
+        font-size: 18px;
+        top:25px;
+    }
+    div.infosOfMe p{
+        font-size: 18px;
+        top: 40px;
+    }
+    div.atouts p{
+        font-size: 18px;
+        top: 40px;
+        font-weight: bold;
+    }
+    .competences h3, .diplomes h3, .experiences h3{
+        font-size: 48px;
+    }
+    .lang-fluid h4, .fameworks-fluid h4, .outils-fluid h4,  .lang-com h4{
+        font-size: 30px;
+    }
+    .lang-com p, .lang-fluid h5, .fameworks-fluid h5, .outils-fluid h5, .lang-com h5{
+        font-size: 18px;
+    }
+      /* diplomes */
+      .last-dip-content{
+        border-bottom: 1px solid rgba(0, 0, 0, 0.39);
+    }
+    .espanol p,  .espanol h5{
+        position: relative;
+        left: 60%;
+     }
+     .comp-img.sql {
+        position: relative;
+        left: 60%;
+     }
+  
+}
+
+@media only screen and (max-width: 566px) and (min-width: 521px) {
+    
+    body{
+        background-color: rgb(70, 6, 64);
+    }
+    .navig a img{
+        width: 50px;
+        height: 50px;
+    }
+    div.aboutMe{
+        height: 680px;
+    }
+    div.aboutMe h1{
+        font-size: 40px;
+        top:-10px;
+    }
+    div.aboutMe h2{
+        font-size: 40px;
+        top: 5px;
+    }
+    div.aboutMe h3{
+        font-size: 18px;
+        top:25px;
+    }
+    div.infosOfMe p{
+        font-size: 18px;
+        top: 40px;
+    }
+    div.atouts p{
+        font-size: 18px;
+        top: 50px;
+        font-weight: bold;
+    }
+    .competences h3, .diplomes h3, .experiences h3{
+        font-size: 48px;
+    }
+    .lang-fluid h4, .fameworks-fluid h4, .outils-fluid h4,  .lang-com h4{
+        font-size: 30px;
+    }
+    .lang-com p, .lang-fluid h5, .fameworks-fluid h5, .outils-fluid h5, .lang-com h5{
+        font-size: 18px;
+    }
+    /* diplomes */
+    .last-dip-content{
+        border-bottom: 1px solid rgba(0, 0, 0, 0.39);
+    }
+    .espanol p,  .espanol h5{
+        position: relative;
+        left: 60%;
+     }
+     .comp-img.sql {
+        position: relative;
+        left: 60%;
+     }
+}
+@media only screen and (max-width: 521px) and (min-width: 500px) {
+    .navig a img{
+        width: 50px;
+        height: 50px;
+    }
+    div.aboutMe{
+        height: 750px;
+    }
+    div.aboutMe h1{
+        font-size: 40px;
+        top:-10px;
+    }
+    div.aboutMe h2{
+        font-size: 40px;
+        top: 5px;
+    }
+    div.aboutMe h3{
+        font-size: 18px;
+        top:25px;
+    }
+    div.infosOfMe p{
+        font-size: 18px;
+        top: 40px;
+    }
+    div.atouts p{
+        font-size: 18px;
+        top: 50px;
+        font-weight: bold;
+    }
+    .competences h3, .diplomes h3, .experiences h3{
+        font-size: 45px;
+    }
+    .lang-fluid h4, .fameworks-fluid h4, .outils-fluid h4,  .lang-com h4{
+        font-size: 30px;
+    }
+    .lang-com p, .lang-fluid h5, .fameworks-fluid h5, .outils-fluid h5, .lang-com h5{
+        font-size: 18px;
+    }
+    .espanol p,  .espanol h5{
+        position: relative;
+        left: 60%;
+     }
+     .comp-img.sql {
+        position: relative;
+        left: 60%;
+     }
+     /* diplomes */
+     .last-dip-content{
+        border-bottom: 1px solid rgba(0, 0, 0, 0.39);
+    }
+    .experiences h4, h6, h5, p{
+        text-align: center;
+    }
+}
+/* galaxy S III, moto G4,  Galaxy S5*/
+@media only screen and (max-width: 376px) and (min-width: 360px) {
+   
+    div.container{
+        width: 100%;
+    }
+    .navig a img{
+        width: 55px;
+        height: 55px;
+        margin-left: -10px;
+        margin-right: -10px;
+    }
+    div.aboutMe{
+        height: 920px;
+        top:20px;
+    }
+    div.aboutMe h1{
+        font-size: 45px;
+    }
+    div.aboutMe h2{
+        font-size: 40px;
+        top: 20px;
+    }
+    div.aboutMe h3{
+        font-size: 21px;
+        top:23px;
+    }
+    div.infosOfMe p{
+        font-size: 19px;
+        top: 40px;
+        margin-right: -60px;
+        right: 20px;
+    }
+    div.atouts p{
+        font-size: 20px;
+        top: 50px;
+        font-weight: bold;
+        margin-right: -60px;
+        text-align: center;
+        right:30px;
+    }
+    .competences{
+        top:20px;
+    }
+    .competences h3, .diplomes h3, .experiences h3{
+        font-size: 40px;
+    }
+    .lang-fluid h4, .fameworks-fluid h4, .outils-fluid h4,  .lang-com h4, .experiences h4, .diplomes h4{
+        font-size: 28px;
+    }
+    .lang-com h4{
+        position: relative;
+        top:-5px;
+    }
+     .lang-fluid h5, .fameworks-fluid h5, .outils-fluid h5{
+        font-size: 18px;
+    }
+    .lang-com h5{
+        font-size: 20px;
+    }
+    .espanol p,  .espanol h5{
+        position: relative;
+        left: 60%;
+     }
+     .lang-com p{
+         font-size: 17px;
+     }
+     .comp-img.sql {
+        position: relative;
+        left: 60%;
+     }
+     .comp-img.react h5{
+        position: relative;
+        margin-right: -0px;
+    }
+    .comp-img.myAdmin img{
+        width: 120px;
+    }
+    .experiences,.diplomes, .loisirs{
+        top:20px;
+    }
+    .experiences p{
+        font-size: 18px;
+        text-align: center;
+    }
+    .experiences h4, h6, h5{
+        text-align: center;
+    }
+    .diplomes h4{
+        font-size: 20px;
+    }
+    .last-dip-content{
+        border-bottom: 1px solid rgba(0, 0, 0, 0.39);
+    }
+    .loisirs h3{
+        font-size: 28px;
+    }
+    .loisirs p{
+        font-size: 18px;
+    }
+
+    
+}
+ 
+@media only screen and (max-width: 359px) and (min-width: 320px) {
+   
+    div.container{
+        width: 100%;
+    }
+    .navig a img{
+        width: 45px;
+        height: 45px;
+        margin-left: -10px;
+        margin-right: -10px;
+    }
+    div.aboutMe{
+        height: 980px;
+        top:20px;
+    }
+    div.aboutMe h1{
+        font-size: 40px;
+    }
+    div.aboutMe h2{
+        font-size: 38px;
+        top: 20px;
+        margin-right: -40px;
+        right: 20px;
+    }
+    div.aboutMe h3{
+        font-size: 22px;
+        top:23px;
+        margin-right: -40px;
+        right: 20px;
+    }
+    div.infosOfMe p{
+        font-size: 18px;
+        top: 40px;
+        margin-right: -80px;
+        right: 40px;
+    }
+    div.atouts p{
+        font-size: 20px;
+        top: 50px;
+        font-weight: bold;
+        margin-right: -60px;
+        text-align: center;
+        right: 30px;
+    }
+    .competences{
+        top:20px; 
+    }
+    .comp-img{
+        position: relative;
+        left: -10px;
+    }
+    .competences h3, .diplomes h3, .experiences h3{
+        font-size: 35px;
+    }
+    .lang-fluid h4, .fameworks-fluid h4, .outils-fluid h4,  .experiences h4{
+        font-size: 27px;
+    }
+    .lang-com p, .lang-fluid h5, .fameworks-fluid h5, .outils-fluid h5{
+        font-size: 17px;
+    }
+    .lang-com h5{
+        font-size: 18px;
+    }
+    .lang-com h4{
+        font-size: 21px;
+        top:5px;
+    }
+    .espanol p,  .espanol h5{
+        position: relative;
+        left: 60%;
+     }
+     .comp-img.sql {
+        position: relative;
+        left: 60%;
+     }
+     .comp-img.react h5{
+        position: relative;
+        margin-right: -40px;
+    }
+    .comp-img.myAdmin img{
+        width: 100px;
+        height: 70px;
+    }
+    .experiences,.diplomes, .loisirs{
+        top:20px;
+    }
+    .diplomes h4{
+        font-size: 20px;
+    }
+    .loisirs h3{
+        font-size: 25px;
+    }
+    .experiences p, h4, h5, h6{
+        text-align: center;
+    }
+    .experiences p {
+        margin-right: -20px;
+        right: 10px;
+        font-size: 18px;
+    }
+    .loisirs p{
+        font-size: 16px;
+    }
+    
+}
+/* pixel 2 et xl et iphone plus */
+@media only screen and (max-width: 414px) and (min-width: 376px) {
+   
+    .navig a img{
+        width: 60px;
+        height: 60px;
+        margin-left: -10;
+        margin-right: -10px;
+    }
+    div.aboutMe{
+        height: 1050px;
+        top:20px;
+    }
+    div.aboutMe h1{
+        font-size: 48px;
+        
+    }
+    div.aboutMe h2{
+        font-size: 48px;
+        top: 20px;
+    }
+    div.aboutMe h3{
+        font-size: 25px;
+        top:23px;
+    }
+    div.infosOfMe p{
+        font-size: 21px;
+        top: 40px;
+        margin-right: -40px;
+        right: 25px;
+    }
+    div.atouts p{
+        font-size: 23px;
+        top: 50px;
+        font-weight: bold;
+        margin-right: -50px;
+        text-align: center;
+        right:22.5px;
+    }
+    .competences{
+        top:20px;
+    }
+    .competences h3, .diplomes h3, .experiences h3{
+        font-size: 45px;
+    }
+    .lang-fluid h4, .fameworks-fluid h4, .outils-fluid h4,  .lang-com h4{
+        font-size: 32px;
+    }
+    .lang-com p, .lang-fluid h5, .fameworks-fluid h5, .outils-fluid h5{
+        font-size: 20px;
+    }
+    .lang-com h4{
+        top: -2px;
+    }
+    .lang-com h5{
+        font-size: 25px;
+    }
+    .lang-com p{
+        font-size: 20px;
+    }
+    .espanol p,  .espanol h5{
+        position: relative;
+        left: 60%;
+     }
+     .comp-img.sql {
+        position: relative;
+        left: 60%;
+     }
+     .comp-img.react h5{
+        position: relative;
+        margin-right: -20px;
+    }
+    .experiences,.diplomes, .loisirs{
+        top:20px;
+    }
+    .loisirs h3{
+        font-size: 30px;
+    }
+    .experiences h4, h6, h5{
+        text-align: center;
+    }
+    .diplomes h4{
+        font-size: 20px;
+    }
+    .last-dip-content{
+        border-bottom: 1px solid rgba(0, 0, 0, 0.39);
+    }
+    
+}
+@media only screen and (max-width: 319px) and (min-width: 280px) {
+
+    div.container{
+        width: 100%;
+    }
+    .navig a img{
+        width: 40px;
+        height: 40px;
+        margin-left: -10px;
+        margin-right: -10px;
+    }
+    div.aboutMe{
+        height: 830px;
+        top:20px;
+    }
+    div.aboutMe h1{
+        font-size: 35px;
+    }
+    div.aboutMe h2{
+        font-size: 32px;
+        top: 20px;
+        margin-right: -40px;
+        right: 20px;
+    }
+    div.aboutMe h3{
+        font-size: 18px;
+        top:23px;
+        margin-right: -40px;
+        right: 20px;
+    }
+    div.infosOfMe p{
+        font-size: 15px;
+        top: 40px;
+        margin-right: -80px;
+        right: 40px;
+    }
+    div.atouts p{
+        font-size: 18px;
+        top: 50px;
+        font-weight: bold;
+        margin-right: -80px;
+        right: 40px;
+        text-align: center;
+    }
+    .competences{
+        top:20px; 
+    }
+    .competences h3, .diplomes h3, .experiences h3{
+        font-size: 30px;
+    }
+    .lang-fluid h4, .fameworks-fluid h4, .outils-fluid h4,  .lang-com h4, .experiences h4{
+        font-size: 22px;
+    }
+    .comp-img{
+        position: relative;
+        left: -20px;
+    }
+    .lang-com p, .lang-fluid h5, .fameworks-fluid h5, .outils-fluid h5, .lang-com h5{
+        font-size: 15px;
+    }
+    .espanol p,  .espanol h5{
+        position: relative;
+        left: 60%;
+     }
+     .lang-com h4{
+         top:5px
+     }
+     .lang-com h5{
+         font-size: 20px;
+     }
+     .experiences h4{
+         top: -10px;
+     }
+     .experiences p {
+        margin-right: -10px;
+        font-size: 15px;
+       
+     }
+     .comp-img.sql {
+        position: relative;
+        left: 60%;
+     }
+     .comp-img.react h5{
+        position: relative;
+        margin-right: -20px;
+    }
+    .comp-img.myAdmin img{
+        width: 100px;
+        height: 70px;
+    }
+    .experiences,.diplomes, .loisirs{
+        top:20px;
+    }
+    .loisirs h3{
+        font-size: 25px;
+    }
+    .loisir-fluid p {
+        font-size: 17px;
+    }
+    .experiences h4, h6, h5, p{
+        text-align: center;
+    }
+    .diplomes h4{
+        font-size: 18px;
+    }
+    .last-dip-content{
+        border-bottom: 1px solid rgba(0, 0, 0, 0.39);
+    }
+    
+}
+/*********************************** fin responsives values ************************************/
+
